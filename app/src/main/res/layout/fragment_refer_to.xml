@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/refer_to_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal"
+        android:background="@drawable/refer_to_classification_shape">
+
+        <RadioButton
+            android:id="@+id/past_info"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@drawable/school_area_shape"
+            android:text="过往信息"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/white"/>
+
+        <RadioButton
+            android:id="@+id/info_overview"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="总览"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textColor="@color/textColor"/>
+    </RadioGroup>
+</LinearLayout>

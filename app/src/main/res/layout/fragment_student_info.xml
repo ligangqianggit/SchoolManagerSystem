@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/textColor"
+        android:text="学生信息"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/studentInfo_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/school_area_shape"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="学生信息录入"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/studentInfo_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/school_area_shape"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="学生信息列表"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/dormitory_query"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/school_area_shape"
+        android:padding="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:text="宿舍空铺查询"
+        android:gravity="center"/>
+</LinearLayout>

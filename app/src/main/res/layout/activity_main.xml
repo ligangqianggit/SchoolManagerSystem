@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yiye.myapplication.ui.activities.MainActivity">
+
+    <TextView
+        android:id="@+id/title_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:background="@color/colorAccent"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:text="青岛谁都还好点"
+        android:gravity="center"/>
+    <FrameLayout
+        android:id="@+id/mFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_below="@+id/title_main">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+        <RadioButton
+            android:id="@+id/radio_bottom_one"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@null"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="查阅"
+            android:drawableTop="@drawable/referto_selector"/>
+        <RadioButton
+            android:id="@+id/radio_bottom_two"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@null"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="宿舍登记"
+            android:drawableTop="@drawable/dormitory_selector"/>
+        <RadioButton
+            android:id="@+id/radio_bottom_three"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:button="@null"
+            android:background="@null"
+            android:gravity="center"
+            android:paddingTop="3dp"
+            android:text="学生信息"
+            android:drawableTop="@drawable/student_info_selector"/>
+    </RadioGroup>
+
+</RelativeLayout>
